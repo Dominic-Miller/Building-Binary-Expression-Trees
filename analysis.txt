@@ -1,0 +1,7 @@
+The worse case time complexity of the private member function makeEmpty(BinaryNode* & t) 
+would be O(n) where n is the size of the binary tree. This is because for each node in the
+tree, we will be deleting the node and setting it to equal nullptr. We do this first by 
+checking if the node is a nullptr then making that node's left subtree empty and right
+subtree empty if it is not and then deleting the node and setting it to be nullptr. 
+This will take the same amountof time for each node, which will lead to a time complexity 
+of O(n).
